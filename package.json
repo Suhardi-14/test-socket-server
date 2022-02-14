@@ -1,0 +1,19 @@
+{
+  "name": "test-socket-server",
+  "version": "1.0.0",
+  "description": "socket server for testing",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon test-socket-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suhardi",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -5,6 +5,7 @@ io.on('connection', (socket) => {
 
   socket.on('deployed', () => {
     console.log('New deploy detected!');
+    socket.emit('receivedNoti');
   });
 });
 
